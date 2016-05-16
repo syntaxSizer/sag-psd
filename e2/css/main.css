@@ -421,3 +421,7 @@ input[type="submit"] {
     width: 100%;
     height: auto;
 }
+
+.marg {
+    margin-top: 50%;
+}
