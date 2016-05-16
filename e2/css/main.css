@@ -1,0 +1,423 @@
+[class*="column-"] {
+    float: left;
+}
+.row,
+.column {
+    box-sizing: border-box;
+}
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.column-1 {
+    width: 8.33333333%;
+}
+.column-2 {
+    width: 16.6666667%;
+}
+.column-3 {
+    width: 25%;
+}
+.column-4 {
+    width: 33.33333332%;
+}
+.column-5 {
+    width: 41.66666667%;
+}
+.column-6 {
+    width: 50%;
+}
+.column-7 {
+    width: 58.33333331%;
+}
+.column-8 {
+    width: 66.66666664%;
+}
+.column-9 {
+    width: 75%;
+}
+.column-10 {
+    width: 83.33333333%;
+    height: auto;
+}
+.column-11 {
+    width: 91.6666666%;
+}
+.column-12 {
+    width: 100%;
+}
+#nav ul li {
+    display: inline-block;
+    border: solid 1px transparent;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 7%;
+}
+#nav1 {
+    text-align: center;
+    font-size: .9em;
+}
+#nav1 li {
+    padding: 2%;
+}
+#nav a {
+    text-decoration: none;
+    color: #999495;
+}
+#nav li:hover {
+    text-decoration: underline;
+}
+#social li {
+    float: right;
+    margin: 2%;
+    padding: 1%;
+    display: inline-block;
+    font-size: 1.8em;
+    color: #999495;
+}
+#social a {
+    text-decoration: none;
+    color: #999495;
+}
+#social a:hover {
+    color: rgba(255, 255, 255, 0.15)
+}
+.r1 {
+    background-color: #3A3033;
+}
+#tex1 {
+    text-align: center;
+    padding-left: 2.5%;
+    margin-top: 20%;
+    font-size: 4em;
+    color: white;
+    font-family: "Alegreya Sans Sc";
+    font-weight: 600;
+    letter-spacing: 5;
+}
+#text2 {
+    font-size: 1.2em;
+    text-align: center;
+    color: #999495;
+    font-family: "Roboto Condensed";
+}
+#btn {
+    text-align: center;
+    font-size: 1em;
+    padding: 2%;
+    font-family: "Alegreya Sans Sc";
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+.undr {
+    height: 50%;
+}
+#undr {
+    height: 20%;
+    background-color: #3A3033;
+}
+.coulmn-6 {
+    background-color: #FB0011;
+}
+.redbg {
+    background-color: #FAFAFA;
+    font-family: "Alegreya Sans Sc";
+}
+.pag1 {
+    margin-top: 22%;
+    font-size: .8em;
+    color: #A9A9A9;
+    font-family: "Roboto Condensed";
+}
+.pag2 {
+    font-size: 2.5em;
+    color: #372D31;
+    font-weight: 700;
+    letter-spacing: 5;
+}
+.redbg1 {
+    background-color: #F80011;
+    height: auto;
+}
+.brn {
+    background-color: #3A3033;
+    height: 32.5%;
+}
+.drkbrn {
+    background-color: #352B2F;
+    height: 32.5%;
+}
+.heit {
+    height: 50%;
+}
+.heit2 {
+    height: 40%;
+}
+.btn2 {
+    padding: 8%;
+    background-color: #F60011;
+    font-weight: 700;
+    color: white;
+    border: #F60011;
+    font-family: "Alegreya Sans SC";
+    letter-spacing: 2;
+}
+.btnbg {
+    /*    background-color: #A9A9A9;*/
+    background-color: #FAFAFA;
+    position: relative;
+}
+.btn3 {
+    margin: 5%;
+}
+.pag3 {
+    font-size: .8em;
+    color: #A9A9A9;
+    padding-left: 6%;
+    font-family: "Roboto Condensed";
+}
+.redtxt {
+    margin: 10%;
+}
+.redtxt h1 {
+    color: #FFE7E7;
+    font-size: 2em;
+    font-family: "Alegreya Sans SC";
+    font-weight: 600;
+    letter-spacing: 5;
+}
+.redtxt p {
+    color: #FE9697;
+    font-family: "Roboto Condensed";
+}
+.img {
+    display: block;
+    padding: 3%;
+}
+.about #abt {
+    font-size: 2em;
+    color: #352B2F;
+    font-family: "Alegreya Sans SC";
+    font-weight: 700;
+    letter-spacing: 5;
+}
+.about {
+    color: #A9A9A9;
+    font-size: 0.9em;
+    font-family: "Roboto Condensed";
+}
+.piclis li {
+    color: #A9A9A9;
+    text-align: center;
+    display: inline-block;
+    padding: 6%;
+}
+.piclis h2 {
+    font-size: 3em;
+    color: #FB0011;
+}
+.srv li {
+    display: inline-block;
+    padding: 9%;
+}
+.hina {
+    background-color: #F5F5F5;
+}
+
+/*service header*/
+
+.srvshead {
+    font-size: 2.5em;
+    color: #352B2F;
+    font-family: "Alegreya Sans Sc";
+    font-weight: 700;
+    letter-spacing: 5;
+}
+.servhead p {
+    font-family: "Alegreya Sans SC";
+    color: #A9A9A9;
+}
+.srv h1 {
+    font-family: "Alegreya Sans Sc", "Roboto Condensed";
+    font-weight: 700;
+    letter-spacing: 2;
+}
+.srv p {
+    font-size: .8em;
+    color: #A9A9A9;
+    font-family: "Alegreya Sans Sc";
+}
+.srv a {
+    color: #A9A9A9;
+    font-family: "Alegreya Sans Sc";
+}
+.sps {
+    height: 8.333333%;
+}
+
+/*spTow is the class  of the fotter*/
+
+.spsTwo {
+    height: 18%;
+    background-color: #352B2F;
+}
+.txtfotter {
+    padding-top: 2%;
+    text-align: center;
+    color: white;
+    font-family: "Alegreya Sans Sc";
+    font-weight: 700;
+    letter-spacing: 2;
+}
+.txtfotter h1 {
+    font-size: 1.5em;
+    padding-bottom: 02%;
+}
+.txtfotter a {
+    color: white;
+}
+.box {
+    height: auto;
+    /*    padding-bottom: 50%;*/
+    background-color: #352B2F;
+}
+#red {
+    color: #FB0011;
+    font-size: .8em;
+    text-align: center;
+}
+.centered {
+    text-align: center;
+}
+.btn-white1 {
+    margin-left: 15%;
+    width: 60%;
+    display: block;
+    border: solid 1px;
+    padding: 3%;
+    color: #32282C;
+    text-decoration: none;
+    font-family: "Alegreya Sans Sc";
+}
+.btn-white2 {
+    margin-left: 15%;
+    width: 60%;
+    display: block;
+    border: solid 1px;
+    padding: 3%;
+    color: #32282C;
+    text-decoration: none;
+    font-family: "Alegreya Sans Sc";
+}
+.btn-white3 {
+    margin-left: 15%;
+    width: 60%;
+    display: block;
+    border: solid 1px;
+    padding: 3%;
+    color: #32282C;
+    text-decoration: none;
+    font-family: "Alegreya Sans Sc";
+}
+.showmore {
+    font-weight: 800;
+    text-align: center;
+    color: #32282C;
+    font-family: "Alegreya Sans Sc";
+    letter-spacing: 3;
+}
+r1 img {
+    width: 100%;
+    height: auto;
+}
+.testmony {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-family: "Roboto Condensed";
+    letter-spacing: 2;
+}
+.wittoblk {
+    background-color: black;
+}
+.emptyspace {
+    height: 21.9%;
+}
+.signup {
+    background-color: #F60011;
+    color: white;
+    padding: 1.8%;
+    width: 65.3%;
+    height: 5%;
+}
+input {
+    padding: 1.7%;
+    padding-right: 50px;
+}
+input[type="submit"] {
+    margin-left: -1em;
+}
+.links a {
+    padding: 2%;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+.lightgrey {
+    color: white;
+    font-size: 1.3em;
+}
+.mediabox {
+    padding: 25%;
+    height: auto;
+    background-color: #352B2F;
+}
+.mediabox p {
+    font-size: 0.6em;
+}
+.lighter {
+    background-color: #615A5C;
+}
+.twitter {
+    background-color: #474043;
+}
+.google {
+    background-color: #3A3033;
+}
+.pointerest {
+    background-color: #726D6E;
+}
+.mediabox .fa fa-pinterest-p {
+    font-size: 4em;
+}
+.redbg81 {
+    background-color: green;
+}
+.btn4 {
+    padding: 4%;
+    background-color: #F60011;
+    font-weight: 700;
+    color: white;
+    border: #F60011;
+    font-family: "Alegreya Sans SC";
+    letter-spacing: 2;
+}
+.piclis h2 {
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+}
+.piclis {
+    font-family: "Alegreya Sans SC";
+}
+.fotfot {
+    font-family: "Roboto Condensed"
+}
+.tst1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
